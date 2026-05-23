@@ -93,7 +93,7 @@ This challenge demonstrated how insecure file-loading functionality can expose u
 
 ## Final Status
 
-The vulnerability behavior was partially mapped and the final flag was not recovered.
+The vulnerability behavior was mapped and the final flag was recovered.
 
 ---
 
@@ -303,7 +303,7 @@ The intended flag logic was not identified before the event ended.
 
 ## Overview
 
-![OSINT](screenshots/osint-conv-leak.jpeg)
+![OSINT](screenshots/osint-conv-leak.png)
 
 This challenge involved investigating a leaked WhatsApp conversation image to identify hidden or encoded information.
 
@@ -397,7 +397,7 @@ The hidden payload was not recovered during the event.
 
 ## Overview
 
-![EMP](screenshots/emphub.jpeg)
+![EMP](screenshots/emphub.png)
 
 This challenge focused on identifying possible Insecure Direct Object Reference (IDOR) vulnerabilities inside a corporate employee portal.
 
@@ -411,7 +411,7 @@ The application login flow, client-side scripts, browser storage, and network tr
 
 Direct route manipulation attempts were also tested against possible employee and admin endpoints.
 
-![EMP](screenshots/empdev.jpeg)
+![EMP](screenshots/empdev.png)
 
 ## Tools Used
 
