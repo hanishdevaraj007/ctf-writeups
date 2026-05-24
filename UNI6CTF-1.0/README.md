@@ -11,6 +11,8 @@
 | Rank | 100 |
 | Score | 745 |
 
+![cert](cert/cert.png)
+
 ---
 
 ## Team Members
@@ -47,7 +49,7 @@
 
 | Category | Difficulty | Status |
 |---|---|---|
-| Web Exploitation | Medium | Solved |
+| Web Exploitation | Easy | Solved |
 
 ![LFI Cake Lab](screenshots/LFIint.png)
 
@@ -214,7 +216,7 @@ The decoded message was recovered successfully, but the actual flag was not iden
 
 | Category | Difficulty | Status |
 |---|---|---|
-| Cryptography | Medium | Unsolved |
+| Cryptography | Easy | Unsolved |
 
 ## The Only Instruction Given
 
