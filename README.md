@@ -1,31 +1,121 @@
 # CTF Writeups & Security Research Notes
 
-This repository contains my cybersecurity Capture The Flag (CTF) challenge writeups, reverse engineering notes, web exploitation experiments, and forensic analysis workflows.
+This repository contains my cybersecurity Capture The Flag (CTF) writeups, reverse engineering notes, forensic investigations, binary exploitation experiments, and practical challenge-solving workflows performed during online and offline cybersecurity competitions.
 
-## Participated Events
+The repository documents:
+- challenge analysis methodology,
+- debugging workflows,
+- tool-assisted investigations,
+- failed approaches,
+- and final exploitation or recovery techniques.
 
-| Event | Type | Mode |
-|-------|------|------|
-| UNI6CTF 1.0 | Jeopardy-style CTF | Online |
-| DEFCON Offline CTF | Jeopardy-style CTF | Offline |
+---
 
-## Topics Covered
+# Participated Events
+
+| Event | Type | Mode | Status |
+|---|---|---|---|
+| UNI6CTF 1.0 | Jeopardy-style CTF | Online | Documented |
+| DEFCON Coimbatore Chapter CTF | Jeopardy-style CTF | Offline | Documented |
+
+---
+
+# Repository Structure
+
+```text
+.
+├── DEFCON-Coimbatore-CTF/
+│   ├── cert
+│   ├── screenshots/
+│   ├── README.md
+│   
+│
+├── UNI6CTF-1.0/
+│   ├── cert
+│   ├── screenshots/
+│   ├── scripts/
+│   └── README.md
+│
+└── README.md
+```
+
+---
+
+# Topics Covered
 
 - Web Exploitation
 - Reverse Engineering
 - Digital Forensics
+- Binary Exploitation
 - Cryptography
+- Steganography
+- Git Forensics
 - Client-Side Security
-- Binary Analysis
+- Network Traffic Analysis
+- File Recovery
+- ELF Binary Analysis
 
-## Tools & Technologies
+---
 
+# Tools & Technologies
+
+## Operating Systems
 - Kali Linux
-- Python
-- Browser DevTools
-- Burp Suite
+- Windows
+
+## Analysis & Debugging
+- GDB (GNU Debugger)
+- Wireshark
+- Browser Developer Tools
+- CyberChef
 - binwalk
 - xxd
-- CyberChef
+- strings
+- Git Internals
 
-> This repository focuses on learning methodology, attack surface analysis, and technical experimentation during cybersecurity competitions.
+## Development & Automation
+- Python
+- Bash
+- Git
+
+## Forensics & Recovery
+- FotoForensics
+- EaseUS Online Repair
+- Online Steganography Utilities
+
+---
+
+# Methodology Focus
+
+This repository emphasizes:
+- practical cybersecurity learning,
+- manual investigation workflows,
+- low-level debugging techniques,
+- forensic recovery methods,
+- binary analysis,
+- and attack surface exploration during CTF competitions.
+
+The documentation includes:
+- solved challenges,
+- partial solves,
+- failed attempts,
+- tooling experiments,
+- and technical learning notes.
+
+---
+
+# Learning Objectives
+
+Through these CTF challenges, I am improving skills in:
+- forensic analysis,
+- reverse engineering,
+- exploit development,
+- debugging,
+- network investigation,
+- and practical cybersecurity problem solving.
+
+---
+
+# Disclaimer
+
+This repository is created strictly for educational purposes and cybersecurity learning through legal Capture The Flag competitions.
