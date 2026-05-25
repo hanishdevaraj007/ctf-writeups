@@ -4,10 +4,12 @@
 
 | Field | Details |
 |---|---|
-| Event | DEFCON Coimbatore Chapter CTF |
-| Mode | Offline |
+| Event | DCG Coimbatore CTF |
+| Mode | Offline @KCT |
+| Team Name | Dranzer |
 | Team Size | 3 Members |
-| Final Standing | Top 30 |
+| Final Standing | Top 28 |
+| Score | 1309 |
 | Event Policy | No LLM Assistance Allowed |
 
 ---
@@ -31,6 +33,22 @@ The event involved:
 This competition significantly improved my independent problem-solving workflow and practical investigation methodology.
 
 ![Cert](cert/cert.png)
+
+---
+
+## Team Members
+
+| Member | Role | Score |
+|---|---|---|
+| Vaishu_sid | Captain | 738 |
+| ShreyaPradeep | Member | 274 |
+| Hanish D | Member | 297 |
+
+---
+
+## Scoreboard
+
+![Team Scoreboard](screenshots/scoreboard.jpeg)
 
 ---
 
@@ -163,7 +181,7 @@ defcon{d3l3t3d_c0mm1t_r3c0v3r3d_fr0m_p4ck}
 
 | Category | Difficulty | Status |
 |---|---|---|
-| Steganography | Medium | Solved |
+| Steganography | Easy | Solved |
 
 ## Overview
 
