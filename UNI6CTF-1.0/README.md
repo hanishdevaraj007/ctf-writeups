@@ -30,6 +30,12 @@
 
 ---
 
+# Event Experience
+
+This was my first ever cybersecurity Capture The Flag (CTF) competition experience, and worthy spending hours.
+
+---
+
 # Challenge Categories Explored
 
 - Web Exploitation
