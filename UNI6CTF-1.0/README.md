@@ -51,7 +51,71 @@ This was my first ever cybersecurity Capture The Flag (CTF) competition experien
 
 ---
 
-# 1. Sweet Sweets Backery
+# 1. A1Z26 Cipher Challenge
+
+| Category | Difficulty | Status |
+|---|---|---|
+| Cryptography | Easy | Solved |
+
+## Overview
+
+The challenge provided a sequence of space-separated numbers:
+
+```text
+18 5 25 11 10 1 22 9 11 9 3 5 12 1 14 4
+```
+
+The numeric structure strongly resembled a classical substitution cipher.
+
+## Investigation Process
+
+I identified the encoding method as the A1Z26 cipher, where:
+
+```text
+1 = A
+2 = B
+...
+26 = Z
+```
+
+Each number was mapped to its corresponding alphabet character.
+
+Example:
+
+```text
+18 = R
+5 = E
+25 = Y
+```
+
+The sequence successfully decoded into:
+
+```text
+REYKJAVIKICELAND
+```
+
+## Tools Used
+
+- Python
+- Kali Linux Terminal
+
+## Decoding Command
+
+```bash
+echo "18 5 25 11 10 1 22 9 11 9 3 5 12 1 14 4" | python3 -c "print(''.join(chr(int(x) + 64) for x in input().split()))"
+```
+![bashA1Z26](screenshots/cryp.png)
+
+## Key Learning
+
+This challenge reinforced how classical substitution ciphers are frequently used in beginner-friendly cryptography challenges and how simple scripting can automate repetitive decoding tasks.
+
+## Final Result
+
+```text
+REYKJAVIKICELAND
+```
+# 2. Sweet Sweets Backery
 
 | Category | Difficulty | Status |
 |---|---|---|
@@ -105,7 +169,7 @@ The vulnerability behavior was mapped and the final flag was recovered.
 
 ---
 
-# 2. Numbers Don't Lie... Or Do They?
+# 3. Numbers Don't Lie... Or Do They?
 
 | Category | Difficulty | Status |
 |---|---|---|
@@ -175,7 +239,7 @@ Arbitrary JavaScript execution was achieved, but the final flag was not recovere
 
 ---
 
-# 3. Learn, Learn, Learn
+# 4. Learn, Learn, Learn
 
 | Category | Difficulty | Status |
 |---|---|---|
@@ -218,7 +282,7 @@ The decoded message was recovered successfully, but the actual flag was not iden
 
 ---
 
-# 4. The Old Trick
+# 5. The Old Trick
 
 | Category | Difficulty | Status |
 |---|---|---|
@@ -261,7 +325,7 @@ Multiple classical cipher techniques were tested, but the correct flag was not i
 
 ---
 
-# 5. Fake People Will Help
+# 6. Fake People Will Help
 
 | Category | Difficulty | Status |
 |---|---|---|
@@ -303,11 +367,11 @@ The intended flag logic was not identified before the event ended.
 
 ---
 
-# 6. Thunder Cipher — OSINT Challenge
+# 7. Thunder Cipher — OSINT Challenge
 
 | Category | Difficulty | Status |
 |---|---|---|
-| Open Source Intelligence | Hard | Partial Solve |
+| Open Source Intelligence | Medium | Partial Solve |
 
 ## Overview
 
@@ -351,11 +415,11 @@ Multiple forensic and steganographic methods were tested, but the final hidden p
 
 ---
 
-# 7. gods_child_.wav
+# 8. gods_child_.wav
 
 | Category | Difficulty | Status |
 |---|---|---|
-| Digital Forensics | Hard | Unsolved |
+| Digital Forensics | Medium | Unsolved |
 
 ## Overview
 
@@ -397,11 +461,11 @@ The hidden payload was not recovered during the event.
 
 ---
 
-# 8. Employee Hub Lab
+# 9. Employee Hub Lab
 
 | Category | Difficulty | Status |
 |---|---|---|
-| Web Security | Hard | Partial Solve |
+| Web Security | Medium | Partial Solve |
 
 ## Overview
 
@@ -437,7 +501,7 @@ The administrative access path was not identified before event completion.
 
 ---
 
-# 9. Operation 23
+# 10. Operation 23
 
 | Category | Difficulty | Status |
 |---|---|---|
