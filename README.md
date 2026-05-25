@@ -16,15 +16,15 @@ The repository documents:
 | Event | Type | Mode | Status |
 |---|---|---|---|
 | UNI6CTF 1.0 | Jeopardy-style CTF | Online | Documented |
-| DEFCON Coimbatore Chapter CTF | Jeopardy-style CTF | Offline | Documented |
+| CTF@DCG91422 - DCG COIMBATORE | Jeopardy-style CTF | Offline | Documented |
 
 ---
 
 # Repository Structure
 
 ```text
-.
-├── DEFCON-Coimbatore-CTF/
+
+├── DCG-Coimbatore-CTF/
 │   ├── cert
 │   ├── screenshots/
 │   ├── README.md

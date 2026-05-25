@@ -4,7 +4,7 @@
 
 | Field | Details |
 |---|---|
-| Event | DCG Coimbatore CTF |
+| Event | CTF@DCG91422 - DCG COIMBATORE |
 | Mode | Offline @KCT |
 | Team Name | Dranzer |
 | Team Size | 3 Members |
