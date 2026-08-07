@@ -13,6 +13,14 @@
 
 ---
 
+---
+
+## Scoreboard
+
+![Team Scoreboard](screenshots/scoreboard.png)
+
+---
+
 # Event Summary
 
 EVILCORP CTF was an online Jeopardy-style Capture The Flag competition covering multiple cybersecurity domains including:
@@ -46,6 +54,8 @@ The challenge provided a stripped ELF binary named:
 dark_army_vault_stripped
 ```
 
+![dark_army_vault_stripped](screenshots/dark_army_vault.png)
+
 The binary implemented anti-debugging techniques and validated a hidden input before granting access to the vault.
 
 ## Investigation Process
@@ -65,6 +75,7 @@ The transformation was reversed by applying the inverse operation to every const
 
 ## Tools Used
 
+- Notepad
 - Dogbolt
 - ELF Analysis
 - Claude (research assistance)
@@ -118,6 +129,8 @@ The challenge provided an authentication binary named:
 access_module
 ```
 
+![access_module](screenshots/access_module.png)
+
 The objective was to recover the correct access key accepted by the validation routine.
 
 ## Investigation Process
@@ -130,6 +143,7 @@ Based on the recovered logic, I implemented a Python script to reverse the valid
 
 ## Tools Used
 
+- Notepad
 - Dogbolt
 - Python
 - Gemini (research assistance)
@@ -156,6 +170,8 @@ EVILCORP{s3qu3nt1al_byt3_ch3ck1ng}
 | Category | Difficulty | Status |
 |---|---|---|
 | OSINT | 250 Points | Solved |
+
+![osint](screenshots/osint.png)
 
 ## Overview
 
