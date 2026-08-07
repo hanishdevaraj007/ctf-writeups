@@ -7,9 +7,10 @@
 | Event | EVILCORP CTF |
 | Date | 5 August 2026 |
 | Mode | Online |
+| Team Name | Dranzer |
+| Institution | KGiSL Institute of Technology |
 | Duration | Scheduled for 6 Hours (Ended Early) |
 | Team Size | 4 Members |
-| Team Members | Hanish D, A, B, C |
 
 ---
 

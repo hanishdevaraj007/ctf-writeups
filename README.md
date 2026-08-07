@@ -17,6 +17,7 @@ The repository documents:
 |---|---|---|---|
 | UNI6CTF 1.0 | Jeopardy-style CTF | Online | Documented |
 | CTF@DCG91422 - DCG COIMBATORE | Jeopardy-style CTF | Offline | Documented |
+| EVIL CORP | Jeopardy-style CTF | Online | Documented |
 
 ---
 
@@ -29,6 +30,9 @@ The repository documents:
 │   ├── screenshots/
 │   ├── README.md
 │   
+├── EVIL-CORP-1/
+│   ├── screenshots/
+│   └── README.md
 │
 ├── UNI6CTF-1.0/
 │   ├── cert
@@ -72,10 +76,10 @@ The repository documents:
 - xxd
 - strings
 - Git Internals
+- Dogbolt
 
 ## Development & Automation
 - Python
-- Bash
 - Git
 
 ## Forensics & Recovery
